@@ -14,6 +14,8 @@
 		FE13C3A52706E32D00C68330 /* NetworkProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FE13C3A32706E32D00C68330 /* NetworkProject.xcdatamodeld */; };
 		FE13C3A72706E33200C68330 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE13C3A62706E33200C68330 /* Assets.xcassets */; };
 		FE13C3AA2706E33200C68330 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE13C3A82706E33200C68330 /* LaunchScreen.storyboard */; };
+		FE13C3B22706E8CA00C68330 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE13C3B12706E8CA00C68330 /* Post.swift */; };
+		FE13C3B42706F14000C68330 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE13C3B32706F14000C68330 /* Network.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		FE13C3A62706E33200C68330 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FE13C3A92706E33200C68330 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FE13C3AB2706E33200C68330 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE13C3B12706E8CA00C68330 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		FE13C3B32706F14000C68330 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,8 @@
 				FE13C3A82706E33200C68330 /* LaunchScreen.storyboard */,
 				FE13C3AB2706E33200C68330 /* Info.plist */,
 				FE13C3A32706E32D00C68330 /* NetworkProject.xcdatamodeld */,
+				FE13C3B12706E8CA00C68330 /* Post.swift */,
+				FE13C3B32706F14000C68330 /* Network.swift */,
 			);
 			path = NetworkProject;
 			sourceTree = "<group>";
@@ -142,8 +148,10 @@
 			files = (
 				FE13C3A52706E32D00C68330 /* NetworkProject.xcdatamodeld in Sources */,
 				FE13C39F2706E32D00C68330 /* ViewController.swift in Sources */,
+				FE13C3B42706F14000C68330 /* Network.swift in Sources */,
 				FE13C39B2706E32D00C68330 /* AppDelegate.swift in Sources */,
 				FE13C39D2706E32D00C68330 /* SceneDelegate.swift in Sources */,
+				FE13C3B22706E8CA00C68330 /* Post.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
